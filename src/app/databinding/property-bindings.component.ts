@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'mrk-property-bindings',
   template: `
-    {{result}}
+    Here is the #: {{result}}
   `,
   styles: []
 })

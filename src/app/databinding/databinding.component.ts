@@ -10,7 +10,9 @@ export class DatabindingComponent {
   numberInterpolation = 2;
   stringString = 'a stringy string...';
 
-  onClicked(value: 'a stringy string...') {
+  onClickedDataBinding(value: 'a stringy string...') {
     alert(value);
+    this.stringInterpolation = value;
+    this.numberInterpolation++;
   }
 }
