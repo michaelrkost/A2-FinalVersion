@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'mrk-databinding',
@@ -8,4 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class DatabindingComponent {
   stringInterpolation = 'This is string Interpolation.';
   numberInterpolation = 2;
+  stringString = 'a stringy string...';
+
+  onClicked(value: 'a stringy string...') {
+    alert(value);
+  }
 }
